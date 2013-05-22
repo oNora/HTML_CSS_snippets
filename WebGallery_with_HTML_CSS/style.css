@@ -1,0 +1,40 @@
+/*this CSS is generated with SASS*/
+
+body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
+  display: block; }
+
+#big1, #big2, #big3, #big4, #big5, #big6 {
+  display: none; }
+
+body #wrapper {
+  list-style-type: none; }
+  body #wrapper li {
+    display: inline-block;
+    margin: 10px; }
+    body #wrapper li label img {
+      width: 100px;
+      height: 75px;
+      border: 1px solid #000; }
+body input {
+  display: none; }
+  body input:checked + label #big1 {
+    display: block; }
+  body input:checked + label #big2 {
+    display: block; }
+  body input:checked + label #big3 {
+    display: block; }
+  body input:checked + label #big4 {
+    display: block; }
+  body input:checked + label #big5 {
+    display: block; }
+  body input:checked + label #big6 {
+    display: block; }
+  body input:checked + label img {
+    margin: 10px;
+    border: 1px solid #000; }
+
