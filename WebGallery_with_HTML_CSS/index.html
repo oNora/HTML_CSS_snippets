@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Web Gallery create only with HTML and CSS</title>
+    <link href="style.css" rel="stylesheet" />
+
+    <style type="text/css" media="screen">
+        /* GitHub btn */
+        .btn-GitHub {
+            position: fixed;
+            top: 2.5em;
+            right: -3.7em;
+            display: block;
+            padding: 4px 0;
+            background: #ececec;
+            box-shadow: 1px 4px 5px 0px rgba(0,0,0, 0.20);
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+            z-index: 999;
+        }
+
+        .btn-GitHub a {
+            display: block;
+            margin: 0;
+            padding: .4em 3.5em;
+            border-radius: 0;
+            border: 0;
+            box-shadow: none;
+            color: #000;
+            font-family: Arial;
+            text-align: center;
+            text-decoration: none;
+            line-height: initial;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="btn-GitHub">
+        <a href="https://github.com/oNora/HTML_CSS_snippets">Fork me on GitHub</a>
+    </div>
+
+
+    <ul id="wrapper">
+        <form action="#" method="get">
+            <li>
+                <label for="img1"><img src="img/1.jpg" alt=""/> </label>
+            </li>
+            <li>
+                <label for="img2"><img src="img/2.jpg" alt=""/> </label>
+            </li>
+            <li>
+                <label for="img3"><img src="img/3.jpg" alt=""/> </label>
+            </li>
+            <li>
+                <label for="img4"><img src="img/4.jpg" alt=""/> </label>
+            </li>
+            <li>
+                <label for="img5"><img src="img/5.jpg" alt=""/> </label>
+            </li>
+            <li>
+                <label for="img6"><img src="img/6.jpg" alt=""/> </label>
+            </li>
+        </form>
+    </ul>
+    <input type="radio" name="animals" value="img1" id="img1" checked="checked" />
+    <label for="img1"><img src="img/1.jpg" alt="" id="big1" /></label>
+    <input type="radio" name="animals" value="img2" id="img2"/>
+    <label for="img2"><img src="img/2.jpg" alt="" id="big2"/></label>
+    <input type="radio" name="animals" value="img3" id="img3" />
+    <label for="img3"><img src="img/3.jpg" alt="" id="big3"/></label>
+    <input type="radio" name="animals" value="img4" id="img4"/>
+    <label for="img4"><img src="img/4.jpg" alt="" id="big4"/></label>
+    <input type="radio" name="animals" value="img5" id="img5"/>
+    <label for="img5"><img src="img/5.jpg" alt="" id="big5"/></label>
+    <input type="radio" name="animals" value="img6" id="img6"/>
+    <label for="img6"><img src="img/6.jpg" alt="" id="big6"/></label>
+</body>
+</html>

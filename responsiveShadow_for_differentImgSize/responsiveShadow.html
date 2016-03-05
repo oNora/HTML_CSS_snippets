@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>task 2: images (with different sizes) with a shadow</title>
+		<style>
+			.main_img{
+				float: left;
+				display: inline;
+			}
+			.out1{
+				background: url("images/top-right.png") no-repeat top right;
+			}
+			.out2{
+				background: url("images/bottom-left.png") left bottom no-repeat;
+				padding-left: 8px;
+				padding-top: 8px;
+			}
+			.shadow{
+				background: url("images/main-shadow.png") bottom right;
+			}
+			.inner{
+				position: relative;
+				top: -7px;
+				left: -8px;
+			}
+
+			/* GitHub btn */
+			.btn-GitHub {
+				position: fixed;
+				top: 2.5em;
+				right: -3.7em;
+				display: block;
+				padding: 4px 0;
+				background: #ececec;
+				box-shadow: 1px 4px 5px 0px rgba(0,0,0, 0.20);
+				-webkit-transform: rotate(45deg);
+				-moz-transform: rotate(45deg);
+				-ms-transform: rotate(45deg);
+				-o-transform: rotate(45deg);
+				transform: rotate(45deg);
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				-o-user-select: none;
+				user-select: none;
+				z-index: 999;
+			}
+
+			.btn-GitHub a {
+				display: block;
+				margin: 0;
+				padding: .4em 3.5em;
+				border-radius: 0;
+				border: 0;
+				box-shadow: none;
+				color: #000;
+				font-family: Arial;
+				text-align: center;
+				text-decoration: none;
+				line-height: initial;
+			}
+		</style>
+	</head>
+	<body>
+
+	<div class="btn-GitHub">
+		<a href="https://github.com/oNora/HTML_CSS_snippets">Fork me on GitHub</a>
+	</div>
+
+		<div class="out1 main_img">
+			<div class="out2">
+				<div class="shadow">
+					<div class="inner">
+						<img src="test_img_2.jpg" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="out1 main_img">
+			<div class="out2">
+				<div class="shadow">
+					<div class="inner">
+						<img src="test_img_1.JPG" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
