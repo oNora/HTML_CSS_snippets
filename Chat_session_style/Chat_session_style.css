@@ -82,9 +82,9 @@ span.date{
 	font-size: 13px;
 }
 .me-item span.date{
-	
+
 	margin-left: 100px;
-	
+
 }
 input {
 	height: 35px;
@@ -114,4 +114,46 @@ button{
 }
 button:hover{
 	background: #fff;
+}
+/* GitHub btn */
+.btn-GitHub {
+    position: fixed;
+    top: 2.5em;
+    right: -3.7em;
+    display: block;
+    padding: 4px 0;
+	background: #2bedff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #befaff 0%, #2bedff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#befaff), color-stop(100%,#2bedff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #befaff 0%,#2bedff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #befaff 0%,#2bedff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #befaff 0%,#2bedff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #befaff 0%,#2bedff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#befaff', endColorstr='#2bedff',GradientType=0 ); /* IE6-9 */
+    box-shadow: 1px 4px 5px 0px rgba(0,0,0, 0.20);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    z-index: 999;
+}
+.btn-GitHub a {
+    display: block;
+    height: auto;
+    margin: 0;
+    padding: .4em 3.5em;
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+    color: #000;
+    font-family: Arial;
+    text-align: center;
+    text-decoration: none;
+    line-height: initial;
 }
