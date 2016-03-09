@@ -13,3 +13,4 @@ _Basic requirements_:
 _Solution_:
 
   All changes can be seen in `Simple_One-responsve_style.css`.
+<br />Demo link: http://onora.github.io/responsive-examples/Simple_One/Simple_One.html
