@@ -1,5 +1,7 @@
-Description
+HTML and CSS snippets
 =================
+
+This is a collection of simple tasks, that I created during a cours of Web Design and UI Technologies at [Telerik Academy](http://www.telerik.com/company/telerik-academy) and while I was learning how to create fancy stuff with pure html and css.
 
 ####1. `Chat_session_style`
 
@@ -8,7 +10,7 @@ Requirements for this task are set as screenshots. You can see them in folder `t
 
 ####2. `LESS_SASS`
 
-Implementing a page with both [LESS](http://onora.github.io/HTML_CSS_snippets/LESS_SASS/LESS_style/homework-with_less.html) and [SASS](http://onora.github.io/HTML_CSS_snippets/LESS_SASS/SASS_style/) technology.
+Implementing a page with both LESS ([demo](http://onora.github.io/HTML_CSS_snippets/LESS_SASS/LESS_style/homework-with_less.html)) and SASS ([demo](http://onora.github.io/HTML_CSS_snippets/LESS_SASS/SASS_style/)) technology.
 
 ####3. `WebGallery_with_HTML_CSS`
 
@@ -34,3 +36,6 @@ Requirements for this task are set as screenshots. You can see them in folder `t
 
 Web page (HTML + CSS + images) that displays few images (with different sizes) with a shadow.  It means that the shadow shrink and expand no matter how large images are
 <br />Demo link: http://onora.github.io/HTML_CSS_snippets/responsiveShadow_for_differentImgSize/responsiveShadow.html
+
+####8. `responsive-examples`
+Simple implementation of responsive design. ([more details](https://github.com/oNora/HTML_CSS_snippets/tree/master/responsive-examples))
